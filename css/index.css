@@ -11,7 +11,7 @@ body{
 .gamePlayArea{
     width: 1000px;
     height: 800px;
-    background-color:blue;
+    background-color: #33CC46;
     overflow: hidden;
     position: absolute;
 
@@ -41,6 +41,7 @@ body{
     width: 100%;
     height: 20px;
     border-radius: 25px;
+    z-index: 2;
 }
 
 #gameOverEle{
@@ -64,8 +65,9 @@ body{
 #container{
     background-color: black;
     width: 100%;
-    height: 90%;
+    height: 95%;
     padding-top: 5%;
+    padding-bottom: 0%;
 }
 
 
